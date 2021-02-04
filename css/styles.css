@@ -85,6 +85,11 @@ pre {
   padding-right: 20px;
 }
 
+.flex-sub {
+  display: inline-block;
+  vertical-align: top;
+}
+
 /* Header */
 
 header {
@@ -110,7 +115,7 @@ header a:hover {
 
 #header-content {
   max-width: 1080px;
-  padding: 20px 20px;
+  padding: 40px 20px;
   margin: 0 auto;
 }
 
@@ -243,6 +248,11 @@ main {
 #download {
   background-color: #c9c9c9;
   padding: 40px 20px;
+}
+
+#download img {
+  height: 100px;
+  margin: 0 20px 0 0;
 }
 
 #download div {

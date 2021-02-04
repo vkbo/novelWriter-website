@@ -68,9 +68,9 @@
 </nav>
 <main>
 
+<a name="overview"></a>
 <section id="intro">
   <div id="intro-box">
-    <a name="overview"></a>
     <div class="intro-row">
       <div class="intro-text">
         <p>A markdown-like text editor designed for writing novels and larger projects of many
@@ -91,9 +91,9 @@
   </div>
 </section>
 
+<a name="download"></a>
 <section id="download">
   <div>
-    <a name="download"></a>
     <h1>Download &amp; Setup</h1>
 
     <h2>Linux</h2>
@@ -103,43 +103,48 @@
           You also need the following python packages on Ubuntu/Debian, or equivalen packages if
           you use another OS and package manager:</p>
         <pre>sudo apt install python3-pyqt5 python3-lxml python3-enchant</pre>
-        <p><b>Installation:</b> Download the zip file, extract it, and run:</p>
+        <p><b>Installation:</b> Download the tar.gz file, extract it, and run:</p>
         <pre>./setup.py install</pre>
         <p><b>Launcher:</b> To install launcher icons, you can also run:</p>
         <pre>./setup.py xdg-install</pre>
         <p><b>Further Details:</b> <a href="<?php echo $setupLinux; ?>">Linux Setup</a></p>
       </div>
       <div class="flex-child">
-        <h3>Stable Version</h3>
-        <table>
-          <tr>
-            <td><b>Version:</b></td>
-            <td><?php echo $nwStableVers; ?> from <?php echo date("j F Y", strtotime($nwStableDate)); ?></td>
-          </tr>
-          <tr>
-            <td><b>Download:</b></td>
-            <td>
-              <a href="<?php echo $nwStableSrcTar; ?>">Source Code (tar.gz)</a>
-              |
-              <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>
-            </td>
-          </tr>
-        </table>
-        <h3>Testing Version</h3>
-        <table>
-          <tr>
-            <td><b>Version:</b></td>
-            <td><?php echo $nwTestingVers; ?> from <?php echo date("j F Y", strtotime($nwTestingDate)); ?></td>
-          </tr>
-          <tr>
-            <td><b>Download:</b></td>
-            <td>
-              <a href="<?php echo $nwTestingSrcTar; ?>">Source Code (tar.gz)</a>
-              |
-              <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
-            </td>
-          </tr>
-        </table>
+        <div class="flex-sub">
+          <img src="images/download-outline.svg" alt="">
+        </div>
+        <div class="flex-sub">
+          <h3>Stable Version</h3>
+          <table>
+            <tr>
+              <td><b>Version:</b></td>
+              <td><?php echo $nwStableVers; ?> from <?php echo date("j F Y", strtotime($nwStableDate)); ?></td>
+            </tr>
+            <tr>
+              <td><b>Download:</b></td>
+              <td>
+                <a href="<?php echo $nwStableSrcTar; ?>">Source Code (tar.gz)</a>
+                |
+                <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+          </table>
+          <h3>Testing Version</h3>
+          <table>
+            <tr>
+              <td><b>Version:</b></td>
+              <td><?php echo $nwTestingVers; ?> from <?php echo date("j F Y", strtotime($nwTestingDate)); ?></td>
+            </tr>
+            <tr>
+              <td><b>Download:</b></td>
+              <td>
+                <a href="<?php echo $nwTestingSrcTar; ?>">Source Code (tar.gz)</a>
+                |
+                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
 
@@ -157,36 +162,41 @@
         <p><b>Further Details:</b> <a href="<?php echo $setupWindows; ?>">Windows Setup</a></p>
       </div>
       <div class="flex-child">
-        <h3>Stable Version</h3>
-        <table>
-          <tr>
-            <td><b>Version:</b></td>
-            <td><?php echo $nwStableVers; ?> from <?php echo date("j F Y", strtotime($nwStableDate)); ?></td>
-          </tr>
-          <tr>
-            <td><b>Download:</b></td>
-            <td>
-              <a href="<?php echo $nwStableWinDL; ?>"><?php echo $nwStableWinNM; ?></a>
-              |
-              <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>
-            </td>
-          </tr>
-        </table>
-        <h3>Testing Version</h3>
-        <table>
-          <tr>
-            <td><b>Version:</b></td>
-            <td><?php echo $nwTestingVers; ?> from <?php echo date("j F Y", strtotime($nwTestingDate)); ?></td>
-          </tr>
-          <tr>
-            <td><b>Download:</b></td>
-            <td>
-              <a href="<?php echo $nwTestingWinDL; ?>"><?php echo $nwTestingWinNM; ?></a>
-              |
-              <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
-            </td>
-          </tr>
-        </table>
+        <div class="flex-sub">
+          <img src="images/download-outline.svg" alt="">
+        </div>
+        <div class="flex-sub">
+          <h3>Stable Version</h3>
+          <table>
+            <tr>
+              <td><b>Version:</b></td>
+              <td><?php echo $nwStableVers; ?> from <?php echo date("j F Y", strtotime($nwStableDate)); ?></td>
+            </tr>
+            <tr>
+              <td><b>Download:</b></td>
+              <td>
+                <a href="<?php echo $nwStableWinDL; ?>"><?php echo $nwStableWinNM; ?></a>
+                |
+                <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+          </table>
+          <h3>Testing Version</h3>
+          <table>
+            <tr>
+              <td><b>Version:</b></td>
+              <td><?php echo $nwTestingVers; ?> from <?php echo date("j F Y", strtotime($nwTestingDate)); ?></td>
+            </tr>
+            <tr>
+              <td><b>Download:</b></td>
+              <td>
+                <a href="<?php echo $nwTestingWinDL; ?>"><?php echo $nwTestingWinNM; ?></a>
+                |
+                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </div>
