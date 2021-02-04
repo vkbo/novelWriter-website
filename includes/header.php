@@ -29,9 +29,9 @@
   <div id="nav-box">
     <ul>
       <li><a href="index.php">Overview</a></li>
-      <li><a href="https://novelwriter.readthedocs.io/">Documentation</a></li>
-      <li><a href="releases.php">Releases</a></li>
       <li><a href="download.php">Download</a></li>
+      <li><a href="releases.php">Releases</a></li>
+      <li><a href="https://novelwriter.readthedocs.io/">Documentation</a></li>
       <li><a href="https://github.com/vkbo/novelWriter">Source</a></li>
     </ul>
   </div>

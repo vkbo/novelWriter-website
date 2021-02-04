@@ -8,6 +8,7 @@
 body {
   background-color: #999999;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12pt;
 }
 
 a {
@@ -22,13 +23,24 @@ a:hover {
 h1, h2, h3, h4 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
-  max-width: 1200px;
-  margin: 0 auto;
   color: #444444;
 }
 
+h1 {
+  font-size: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
 .text-box {
-  max-width: 1200px;
+  max-width: 1080px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -56,9 +68,9 @@ header a:hover {
 }
 
 #header-content {
-  max-width: 1200px;
+  max-width: 1080px;
+  padding: 20px 20px;
   margin: 0 auto;
-  padding: 20px 0;
 }
 
 #header-content h1 {
@@ -83,10 +95,12 @@ nav {
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
+  font-size: 1.05em;
 }
 
 #nav-box {
-  max-width: 1200px;
+  max-width: 1080px;
+  padding: 0 20px;
   margin: 0 auto;
   text-align: center;
 }
@@ -137,7 +151,48 @@ main {
 }
 
 #content {
-  max-width: 1200px;
+  max-width: 1080px;
+  padding: 60px 20px;
   margin: 0 auto;
-  padding: 40px 0;
+}
+
+/* Index Box */
+
+#intro-box {
+  display: table;
+  margin: 0 auto;
+}
+
+#intro-box .intro-row {
+  display: table-row;
+}
+
+#intro-box .intro-text {
+  display: table-cell;
+  vertical-align: top;
+  font-size: 1.2em;
+  padding: 0 40px 0 0;
+}
+
+#intro-box .intro-text p {
+  margin-top: 0.1em;
+  margin-bottom: 0.7em;
+}
+
+#intro-box .intro-image {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0;
+}
+
+#intro-box .intro-image img {
+  height: 300px;
+}
+
+#intro-slug {
+  max-width: 1080px;
+  padding: 30px 0 20px 0;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-align: center;
 }
