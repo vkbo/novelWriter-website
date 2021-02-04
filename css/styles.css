@@ -6,7 +6,7 @@
 /* General */
 
 body {
-  background-color: #eeeeee;
+  background-color: #999999;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -36,6 +36,7 @@ h1, h2, h3, h4 {
 
 header {
   background-color: #0083be;
+  background-image: linear-gradient(to bottom, #0083be, #005981);
   color: #ffffff;
 }
 
@@ -47,24 +48,32 @@ header a:hover {
   color: #aaaaaa;
 }
 
-header h1 {
+#top-banner {
+  background-color: #005981;
+  text-align: right;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+#header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#header-content h1 {
+  /* border: 1px dotted white; */
   font-size: 3em;
   color: #ffffff;
-  margin: 20px 0 0 0;
+  margin: 0 0 -0.2em 0;
   padding: 0;
 }
 
-#top-banner {
-  background-color: #0071a3;
-  text-align: right;
-  font-weight: 700;
-  padding: 8px;
-}
-
 #sub-title {
+  /* border: 1px dotted white; */
+  font-size: 1.1em;
   font-weight: 700;
   margin: 0;
-  padding: 0 0 20px 0;
 }
 
 /* Navigation */
@@ -74,6 +83,12 @@ nav {
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
+}
+
+#nav-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 nav ul {
@@ -110,13 +125,19 @@ nav ul li a:hover {
 
 footer {
   background-color: #999999;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
+  padding: 20px 0;
 }
 
 /* Content */
 
 main {
+  background-color: #eeeeee;
+}
+
+#content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 40px 0;
 }
