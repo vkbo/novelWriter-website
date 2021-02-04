@@ -1,0 +1,122 @@
+/**
+ * novelWriter.io Style Sheet
+ * ==========================
+ */
+
+/* General */
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #555555;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #444444;
+}
+
+.text-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  background-color: #0083be;
+  color: #ffffff;
+}
+
+header a {
+  color: #ffffff;
+}
+
+header a:hover {
+  color: #aaaaaa;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+#top-banner {
+  background-color: #0071a3;
+  text-align: right;
+  font-weight: 700;
+  padding: 8px;
+}
+
+#sub-title {
+  font-weight: 700;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #444444;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-bottom: 4px solid #444444;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 4px solid #be5526;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Footer */
+
+footer {
+  background-color: #999999;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Content */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
