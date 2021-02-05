@@ -57,6 +57,7 @@
   <meta property="og:image" content="https://novelwriter.io/images/screenshot-multi.png" />
   <meta property="og:image:secure_url" content="https://novelwriter.io/images/screenshot-multi.png" />
   <meta property="og:image:type" content="image/png" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 </head>
 <body>
 <header>

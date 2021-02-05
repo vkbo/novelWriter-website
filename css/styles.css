@@ -9,7 +9,7 @@ body {
   background-color: #999999;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 12pt;
-  min-width: 480px;
+  min-width: 320px;
 }
 
 a {
@@ -241,7 +241,7 @@ main {
 }
 
 #intro img {
-  height: 300px;
+  width: 90%;
 }
 
 #intro-slug {
@@ -267,10 +267,7 @@ main {
   /* border-radius: 8px; */
 }
 
-.feature-slide .flex-child-left {
-  margin: 20px;
-}
-
+.feature-slide .flex-child-left,
 .feature-slide .flex-child-right {
   margin: 20px;
 }
@@ -356,4 +353,62 @@ main {
 
 #download table tr td:first-child {
   padding: 0 12px 0 0;
+}
+
+@media all and (max-width: 600px) {
+
+  html, body {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .text-box, #header-content, #nav-box, #intro, #intro-slug, #features {
+    width: 92%;
+    max-width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  #header-content {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  #header-content, #intro, #features, #download {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .feature-carousel {
+    width: 92%;
+    max-width: 92%;
+  }
+
+  .feature-slide .flex-child-left,
+  .feature-slide .flex-child-right {
+    margin: 0;
+  }
+
+  .flex-child-left, .flex-child-right {
+    min-width: 80%;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+  .slick-prev, .slick-next {
+    visibility: hidden;
+  }
+
+  code, pre {
+    max-width: 80% !important;
+    overflow: hidden !important;
+    white-space: pre-wrap;
+  }
+
+  #download img {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    margin: 0;
+  }
 }
