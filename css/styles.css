@@ -28,6 +28,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2.5em;
+  margin-top: 0;
   margin-bottom: 0.2em;
 }
 
@@ -74,15 +75,21 @@ pre {
 
 .flex-outer {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.flex-child {
+.flex-child-left {
   flex: 1;
+  min-width: 400px;
+  margin: 0 10px 20px 0;
   /* border: 1px dotted #000000; */
 }
 
-.flex-child:first-child {
-  padding-right: 20px;
+.flex-child-right {
+  flex: 1;
+  min-width: 400px;
+  margin: 0 0 20px 10px;
+  /* padding-right: 20px; */
 }
 
 .flex-sub {
@@ -107,7 +114,7 @@ header a:hover {
 }
 
 #top-banner {
-  background-color: #005981;
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: right;
   font-weight: 700;
   padding: 8px 0;
@@ -202,42 +209,23 @@ main {
   max-width: 1080px;
   padding: 40px 20px;
   margin: 0 auto;
+  padding: 60px 20px;
 }
 
-#intro-box {
-  display: table;
-  margin-top: 20px;
-}
-
-#intro-box .intro-row {
-  display: table-row;
-}
-
-#intro-box .intro-text {
-  display: table-cell;
-  vertical-align: top;
+#intro p {
   font-size: 1.2em;
-  padding-right: 40px;
-}
-
-#intro-box .intro-text p {
   margin-top: 0.1em;
   margin-bottom: 0.7em;
 }
 
-#intro-box .intro-image {
-  display: table-cell;
-  vertical-align: top;
-  padding: 0;
-}
-
-#intro-box .intro-image img {
+#intro img {
   height: 300px;
 }
 
 #intro-slug {
   max-width: 1080px;
-  padding: 30px 0;
+  padding: 0;
+  margin-top: 20px;
   font-weight: 700;
   font-size: 1.2em;
   text-align: center;
@@ -247,7 +235,13 @@ main {
 
 #download {
   background-color: #c9c9c9;
-  padding: 40px 20px;
+  padding: 60px 20px;
+}
+
+#download h2 {
+  border-bottom: 2px solid #be5526;
+  padding-bottom: 0;
+  margin-bottom: 12px;
 }
 
 #download img {
@@ -269,5 +263,5 @@ main {
 }
 
 #download table tr td:first-child {
-  padding: 0 20px 0 0;
+  padding: 0 12px 0 0;
 }
