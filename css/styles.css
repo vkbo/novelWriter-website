@@ -196,8 +196,8 @@ nav ul li a:hover {
 /* Footer */
 
 footer {
-  background-color: #999999;
-  color: #000000;
+  background-color: #444444;
+  color: #ffffff;
   text-align: center;
   padding: 20px 0;
 }
@@ -282,20 +282,31 @@ main {
   color: #666666;
 }
 
-.features-sub {
+#features-sub {
+  max-width: 780px;
   text-align: center;
   padding-top: 40px;
+  margin: 0 auto;
 }
 
-.features-sub p {
+#features-sub .flex-child-left {
+  min-width: 250px;
+}
+
+#features-sub .flex-child-right {
+  min-width: 250px;
+}
+
+#features-sub p {
   font-size: 1.4em;
 }
 
-.features-sub img {
-  max-width: 260px;
+#features-sub img {
+  margin: 0 12px;
+  height: 50px;
 }
 
-.features-sub img a {
+#features-sub img a {
   border: none;
 }
 

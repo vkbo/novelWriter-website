@@ -67,7 +67,7 @@
     <ul>
       <li><a href="#features">Features</a></li>
       <li><a href="#download">Download</a></li>
-      <li><a href="#license">License</a></li>
+      <!-- <li><a href="#license">License</a></li> -->
       <li><a href="https://novelwriter.readthedocs.io">Documentation</a></li>
       <li><a href="https://github.com/vkbo/novelWriter/discussions">Ask a Question</a></li>
       <li><a href="https://github.com/vkbo/novelWriter/issues">Report an Issue</a></li>
@@ -93,9 +93,7 @@
       <img src="images/screenshot-multi.png" alt="">
     </div>
   </div>
-  <div id="intro-slug">
-    novelWriter is Free and Open Source, and runs on Linux, Windows and macOS
-  </div>
+  <div id="intro-slug">novelWriter is Free and Open Source, and runs on Linux, Windows and macOS</div>
 </section>
 
 <a name="features"></a>
@@ -179,9 +177,18 @@
       </div>
     </div>
   </div>
-  <div class="features-sub">
-    <p>Whant to know more?</p>
-    <a href="https://novelwriter.readthedocs.io"><img src="images/readthedocs.png" alt=""></a>
+  <div id="features-sub">
+    <div class="flex-outer">
+      <div class="flex-child-left">
+        <p>Want to know more?</p>
+        <a href="https://novelwriter.readthedocs.io"><img src="images/readthedocs.png" alt=""></a>
+      </div>
+      <div class="flex-child-right">
+        <p>Built with ...</p>
+        <a href="https://www.python.org"><img src="images/python-logo.png" alt=""></a>
+        <a href="https://www.qt.io"><img src="images/qt-logo.png" alt=""></a>
+      </div>
+    </div>
   </div>
 </section>
 
