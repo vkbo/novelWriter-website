@@ -66,7 +66,7 @@
     </div>
   </div>
   <div id="header-content">
-    <h1>novelWriter</h1>
+    <h1><a href="https://novelwriter.io">novelWriter</a></h1>
     <div id="sub-title">A markdown-like editor for novels</div>
   </div>
 </header>
