@@ -75,11 +75,11 @@
     <ul>
       <li><a href="#features">Features</a></li>
       <li><a href="#download">Download</a></li>
-      <!-- <li><a href="#license">License</a></li> -->
       <li><a href="https://novelwriter.readthedocs.io">Documentation</a></li>
       <li><a href="https://github.com/vkbo/novelWriter/discussions">Ask a Question</a></li>
       <li><a href="https://github.com/vkbo/novelWriter/issues">Report an Issue</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter">Source Code</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter">On GitHub</a></li>
+      <li><a href="https://pypi.org/project/novelWriter">On PyPi</a></li>
     </ul>
   </div>
 </nav>
@@ -95,7 +95,9 @@
         and notes, with a meta data syntax for comments, synopsis, and cross-referencing between
         files, and built on plain text files for robustness.</p>
       <h2>Latest Release</h2>
-      <p>Version <?php echo $nwStableVers; ?>, released on <?php echo date($fmtDateL, strtotime($nwStableDate)); ?>.</p>
+      <p><b>Version <?php echo $nwStableVers; ?></b>, released on
+        <a href="<?php echo $nwStableNotes; ?>" title="Release Notes">
+        <?php echo date($fmtDateL, strtotime($nwStableDate)); ?></a>.</p>
     </div>
     <div class="flex-child-right">
       <img src="images/screenshot-multi.png" alt="">
@@ -298,7 +300,7 @@
               <td>
                 <a href="<?php echo $nwStableMinWin; ?>">Minimal Package</a>
                 |
-                <a href="<?php echo $nwStableSrcTar; ?>">Full Source</a>
+                <a href="<?php echo $nwStableSrcZip; ?>">Full Source</a>
               </td>
             </tr>
           </table>
@@ -317,7 +319,7 @@
               <td>
                 <a href="<?php echo $nwTestingMinWin; ?>">Minimal Package</a>
                 |
-                <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
+                <a href="<?php echo $nwTestingSrcZip; ?>">Full Source</a>
               </td>
             </tr>
           </table>
