@@ -10,6 +10,7 @@
   $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.0.4";
   $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.0.4/novelWriter-1.0.4-minimal.zip";
   $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.0.4/novelWriter-1.0.4-minimal.zip";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.0.4/novelWriter-1.0.4-minimal.zip";
   $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/v1.0.4.tar.gz";
   $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/v1.0.4.zip";
 
@@ -19,12 +20,14 @@
   $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.1rc1";
   $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.1rc1/novelWriter-1.1rc1-minimal.zip";
   $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.1rc1/novelWriter-1.1rc1-minimal.zip";
+  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.1rc1/novelWriter-1.1rc1-minimal.zip";
   $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/v1.1rc1.tar.gz";
   $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/v1.1rc1.zip";
 
   // URLs
-  $setupWindows = "https://novelwriter.readthedocs.io/en/stable/setup_windows.html";
   $setupLinux   = "https://novelwriter.readthedocs.io/en/stable/setup_linux.html";
+  $setupWindows = "https://novelwriter.readthedocs.io/en/stable/setup_windows.html";
+  $setupMacOS   = "https://novelwriter.readthedocs.io/en/stable/setup_mac.html";
 
   // Settings
   $fmtDateL = "F j, Y";
@@ -298,6 +301,69 @@
               <td><b>Download:</b></td>
               <td>
                 <a href="<?php echo $nwTestingMinWin; ?>">Minimal Package</a>
+                |
+                <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <h2>macOS</h2>
+    <div class="flex-outer">
+      <div class="flex-child-left">
+        <p><b>Pre-Requisites:</b> Make sure you have Python installed. Version 3.6 or above is
+          required. These instructions assume you're using the Homebrew version of Python. For
+          further instructions, check the <a href="https://docs.brew.sh/Homebrew-and-Python">Python
+          brew docs</a>.</p>
+        <p>Install dependencies from PyPi with the following from command line:</p>
+        <pre>pip3 install --user pyobjc -r requirements.txt</pre>
+        <p>You should also install the enchant library for spell check support:</p>
+        <pre>brew install enchant</pre>
+        <p><b>Installation:</b> There are no dedicated install scripts for macOS yet. It will be
+          added at some point, but contributins from mac users would be appreciated. You can run
+          novelWriter by executing the <code>novelWriter.py</code> script.</p>
+        <p><b>Further Details:</b> <a href="<?php echo $setupMacOS; ?>">macOS Setup</a></p>
+      </div>
+      <div class="flex-child-right">
+        <div class="flex-sub">
+          <img src="images/download-outline.svg" alt="">
+        </div>
+        <div class="flex-sub">
+          <h3>Stable Version</h3>
+          <table>
+            <tr>
+              <td><b>Version:</b></td>
+              <td>
+                <?php echo $nwStableVers; ?> from <?php echo date($fmtDateS, strtotime($nwStableDate)); ?>
+                |
+                <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Download:</b></td>
+              <td>
+                <a href="<?php echo $nwStableMinMac; ?>">Minimal Package</a>
+                |
+                <a href="<?php echo $nwStableSrcTar; ?>">Full Source</a>
+              </td>
+            </tr>
+          </table>
+          <h3>Testing Version</h3>
+          <table>
+            <tr>
+              <td><b>Version:</b></td>
+              <td>
+                <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
+                |
+                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Download:</b></td>
+              <td>
+                <a href="<?php echo $nwTestingMinMac; ?>">Minimal Package</a>
                 |
                 <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
               </td>
