@@ -197,9 +197,17 @@ nav ul li a:hover {
 
 footer {
   background-color: #444444;
-  color: #ffffff;
+  color: #eeeeee;
   text-align: center;
-  padding: 20px 0;
+  padding: 40px 0;
+}
+
+footer a {
+  color: #eeeeee;
+}
+
+footer a:hover {
+  color: #cccccc;
 }
 
 /* Content */

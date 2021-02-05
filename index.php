@@ -37,7 +37,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Veronica Berglyd Olsen">
+  <title>novelWriter</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
@@ -48,7 +48,15 @@
   <link rel="icon" href="images/icon-novelwriter-32.png" sizes="32x32">
   <link rel="icon" href="images/icon-novelwriter-192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="images/icon-novelwriter-192.png">
-  <meta name="msapplication-TileImage" content="images/icon-novelwriter-192.png">
+  <meta name="msapplication-TileImage" content="images/icon-novelwriter-192.png" />
+  <meta name="author" content="Veronica Berglyd Olsen" />
+  <meta property="og:title" content="novelWriter" />
+  <meta property="og:description" content="A markdown-like editor for novels" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:image" content="https://novelwriter.io/images/screenshot-multi.png" />
+  <meta property="og:image:secure_url" content="https://novelwriter.io/images/screenshot-multi.png" />
+  <meta property="og:image:type" content="image/png" />
 </head>
 <body>
 <header>
@@ -385,7 +393,9 @@
 </main>
 <footer>
   <div class="text-box">
-    Copyright &copy; 2018&ndash;<?php echo date("Y"); ?> Veronica Berglyd Olsen
+    <p><b>Copyright &copy; 2018&ndash;<?php echo date("Y"); ?> Veronica Berglyd Olsen</b></p>
+    <p>novelWriter is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a></p>
+    <p>Typicons, used in the app and on this site, are licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
   </div>
 </footer>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
