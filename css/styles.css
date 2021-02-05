@@ -81,21 +81,25 @@ pre {
 
 .flex-child-left {
   flex: 1;
-  min-width: 480px;
+  min-width: 440px;
   margin: 0 10px 20px 0;
   /* border: 1px dotted #000000; */
 }
 
 .flex-child-right {
   flex: 1;
-  min-width: 480px;
+  min-width: 440px;
   margin: 0 0 20px 10px;
-  /* padding-right: 20px; */
+  /* border: 1px dotted #000000; */
 }
 
 .flex-sub {
   display: inline-block;
   vertical-align: top;
+}
+
+.section-title {
+  text-align: center;
 }
 
 /* Header */
@@ -208,9 +212,8 @@ main {
 
 #intro {
   max-width: 1080px;
-  padding: 40px 20px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
 #intro p {
@@ -232,27 +235,86 @@ main {
   text-align: center;
 }
 
+/* Features */
+
+#features {
+  background-color: #e0e0e0;
+  padding: 80px 20px;
+}
+
+.feature-carousel {
+  width: 1000px;
+  margin: 0 auto;
+  /* border: 2px solid #bbbbbb; */
+  /* border-radius: 8px; */
+}
+
+.feature-slide .flex-child-left {
+  margin: 20px;
+}
+
+.feature-slide .flex-child-right {
+  margin: 20px;
+}
+
+.feature-slide img {
+  width: 100%;
+}
+
+.feature-slide h2 {
+  margin-top: 0.6em;
+}
+
+.feature-slide h3 {
+  margin-top: 0.6em;
+  font-size: 1.2em;
+}
+
+.feature-slide p {
+  font-size: 1.2em;
+}
+
+.slick-prev:before {
+  color: #666666;
+}
+
+.slick-next:before {
+  color: #666666;
+}
+
+.features-sub {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.features-sub p {
+  font-size: 1.4em;
+}
+
+.features-sub img {
+  max-width: 260px;
+}
+
+.features-sub img a {
+  border: none;
+}
+
 /* Download */
 
 #download {
   background-color: #c9c9c9;
-  padding: 60px 20px;
+  padding: 80px 0;
 }
 
 #download h2 {
   border-bottom: 2px solid #be5526;
   padding-bottom: 0;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 #download img {
   height: 100px;
-  margin: 0 16px;
-}
-
-#download div {
-  max-width: 1080px;
-  margin: 0 auto;
+  margin: 0 20px 0 0;
 }
 
 #download table {

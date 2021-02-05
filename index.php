@@ -39,6 +39,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="icon" href="images/icon-novelwriter-32.png" sizes="32x32">
   <link rel="icon" href="images/icon-novelwriter-192.png" sizes="192x192">
@@ -63,7 +65,7 @@
       <li><a href="#features">Features</a></li>
       <li><a href="#download">Download</a></li>
       <li><a href="#license">License</a></li>
-      <li><a href="https://novelwriter.readthedocs.io/">Documentation</a></li>
+      <li><a href="https://novelwriter.readthedocs.io">Documentation</a></li>
       <li><a href="https://github.com/vkbo/novelWriter/discussions">Ask a Question</a></li>
       <li><a href="https://github.com/vkbo/novelWriter/issues">Report an Issue</a></li>
       <li><a href="https://github.com/vkbo/novelWriter">Source Code</a></li>
@@ -93,10 +95,97 @@
   </div>
 </section>
 
+<a name="features"></a>
+<section id="features">
+  <div class="text-box">
+    <h1 class="section-title">Key Features</h1>
+  </div>
+  <div class="feature-carousel">
+    <div class="feature-slide">
+      <div class="flex-outer">
+        <div class="flex-child-left">
+          <h2>Easy Project Overview</h2>
+          <p>novelWriter allows you to break down your novel in whatever way you need, and your
+            documents can be dragged and dropped, and organised into folders.</p>
+          <p>Cross-references to your project notes are defined by convenient meta keyword/value
+            tags. You can even insert comments.</p>
+        </div>
+        <div class="flex-child-right">
+          <img src="images/f-nw-editor-light.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide">
+      <div class="flex-outer">
+        <div class="flex-child-left">
+          <h2>Project Outline</h2>
+          <p>The <i>Outline</i> tab gives you a quick overview of the structure of your novel in
+            terms of your chapters and scenes.</p>
+          <p>It also shows you all the associated meta data and cross-references in user defined columns.</p>
+        </div>
+        <div class="flex-child-right">
+          <img src="images/f-nw-outline-light.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide">
+      <div class="flex-outer">
+        <div class="flex-child-left">
+          <h2>Build &amp; Export</h2>
+          <p>The <i>Build Novel Project</i> tool lets you assemble all your files into a single
+            document. You can filter what to include and make a draft of your novel, or an outline
+            showing all your notes.</p>
+          <p>The result can be printed or saved to HTML, Open Document, Markdown, Plain Text, or PDF.</p>
+        </div>
+        <div class="flex-child-right">
+          <img src="images/f-nw-build-light.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide">
+      <div class="flex-outer">
+        <div class="flex-child-left">
+          <h2>Dark Theme &amp; Syntax</h2>
+          <p>novelWriter defaults to your system’s colour theme, but also comes with an optional dark theme.</p>
+          <p>You can also choose from a number of light and dark syntax highlighting themes, and
+            between four <a href="https://www.s-ings.com/typicons">Typicons</a> icon sets for dark and light backgrounds.</p>
+        </div>
+        <div class="flex-child-right">
+          <img src="images/f-nw-editor-dark.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide">
+      <div class="flex-outer">
+        <div class="flex-child-left">
+          <h2>Other Features</h2>
+          <h3>Document Viewer</h3>
+          <p>Any document, including the document you’re editing, can be viewed in parallel in a
+            separate view panel.</p>
+          <h3>Editor Focus Mode</h3>
+          <p>In <i>Focus Mode</i>, the editor covers the full window, hiding away the project tree
+            and the view panel so you can focus on the text.</p>
+        </div>
+        <div class="flex-child-right">
+          <h2>&nbsp;</h2>
+          <h3>Follow Links &amp; References</h3>
+          <p>Tags and references are clickable so you can quickly navigate between your notes
+            while writing. Documents open in the view panel will also have a list of all other
+            documents pointing back to it.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="features-sub">
+    <p>Whant to know more?</p>
+    <a href="https://novelwriter.readthedocs.io"><img src="images/readthedocs.png" alt=""></a>
+  </div>
+</section>
+
 <a name="download"></a>
 <section id="download">
-  <div>
-    <h1>Download &amp; Setup</h1>
+  <div class="text-box">
+    <h1 class="section-title">Download &amp; Setup</h1>
 
     <h2>Linux</h2>
     <div class="flex-outer">
@@ -142,7 +231,7 @@
               <td>
                 <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
                 |
-                <a href="<?php echo $nwTargetNotes; ?>">Release Notes</a>
+                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
               </td>
             </tr>
             <tr>
@@ -202,7 +291,7 @@
               <td>
                 <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
                 |
-                <a href="<?php echo $nwTargetNotes; ?>">Release Notes</a>
+                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
               </td>
             </tr>
             <tr>
@@ -226,6 +315,20 @@
     Copyright &copy; 2018&ndash;<?php echo date("Y"); ?> Veronica Berglyd Olsen
   </div>
 </footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".feature-carousel").slick({
+      "slidesToShow": 1,
+      "slidesToScroll": 1,
+      "dots": true,
+      "autoplay": true,
+      "autoplaySpeed": 5000,
+    });
+  });
+</script>
 
 </body>
 </html>
