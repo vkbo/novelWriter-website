@@ -191,12 +191,12 @@
     <div class="flex-outer">
       <div class="flex-child-left">
         <p>Want to know more?</p>
-        <a href="https://novelwriter.readthedocs.io"><img src="images/readthedocs.png" alt=""></a>
+        <a href="https://novelwriter.readthedocs.io"><img src="images/readthedocs.png" alt="The Read the Docs logo."></a>
       </div>
       <div class="flex-child-right">
         <p>Built with ...</p>
-        <a href="https://www.python.org"><img src="images/python-logo.png" alt=""></a>
-        <a href="https://www.qt.io"><img src="images/qt-logo.png" alt=""></a>
+        <a href="https://www.python.org"><img src="images/python-logo.png" alt="The Python logo."></a>
+        <a href="https://www.qt.io"><img src="images/qt-logo.png" alt="The Qt Company logo."></a>
       </div>
     </div>
   </div>
