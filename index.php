@@ -96,9 +96,8 @@
         and notes, with a meta data syntax for comments, synopsis, and cross-referencing between
         files, and built on plain text files for robustness.</p>
       <h2>Latest Release</h2>
-      <p><b>Version <?php echo $nwStableVers; ?></b>, released on
-        <a href="<?php echo $nwStableNotes; ?>" title="Release Notes">
-        <?php echo date($fmtDateL, strtotime($nwStableDate)); ?></a>.</p>
+      <p>Version <?php echo $nwStableVers; ?> released on <?php echo date($fmtDateL, strtotime($nwStableDate)); ?>.</p>
+      <p>Read the <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>.</p>
     </div>
     <div class="flex-child-right">
       <img src="images/screenshot-multi.png" alt="">
