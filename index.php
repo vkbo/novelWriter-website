@@ -76,11 +76,11 @@
     <ul>
       <li><a href="#features">Features</a></li>
       <li><a href="#download">Download</a></li>
-      <li><a href="https://novelwriter.readthedocs.io">Documentation</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter/discussions">Ask a Question</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter/issues">Report an Issue</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter">On GitHub</a></li>
-      <li><a href="https://pypi.org/project/novelWriter">On PyPi</a></li>
+      <li><a href="https://novelwriter.readthedocs.io" title="External Link">Documentation</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter/discussions" title="External Link">Ask a Question</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter/issues" title="External Link">Report an Issue</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter" title="External Link">On GitHub</a></li>
+      <li><a href="https://pypi.org/project/novelWriter" title="External Link">On PyPi</a></li>
     </ul>
   </div>
 </nav>
@@ -100,7 +100,7 @@
       <p>Read the <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>.</p>
     </div>
     <div class="flex-child-right">
-      <img src="images/screenshot-multi.png" alt="">
+      <img src="images/screenshot-multi.png" alt="A screenshot of the novelWriter main application, with two dialogs superimposed.">
     </div>
   </div>
   <div id="intro-slug">novelWriter is Free and Open Source, and runs on Linux, Windows and macOS</div>
@@ -122,7 +122,7 @@
             tags. You can even insert comments.</p>
         </div>
         <div class="flex-child-right">
-          <img src="images/f-nw-editor-light.png" alt="">
+          <img src="images/f-nw-editor-light.png" alt="Screenshot of the main application window.">
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@
           <p>It also shows you all the associated meta data and cross-references in user defined columns.</p>
         </div>
         <div class="flex-child-right">
-          <img src="images/f-nw-outline-light.png" alt="">
+          <img src="images/f-nw-outline-light.png" alt="Screenshot of the main application window with the outline tab active.">
         </div>
       </div>
     </div>
@@ -149,7 +149,7 @@
           <p>The result can be printed or saved to HTML, Open Document, Markdown, Plain Text, or PDF.</p>
         </div>
         <div class="flex-child-right">
-          <img src="images/f-nw-build-light.png" alt="">
+          <img src="images/f-nw-build-light.png" alt="Screenshot of the Buld Novel project dialog.">
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
             between four <a href="https://www.s-ings.com/typicons">Typicons</a> icon sets for dark and light backgrounds.</p>
         </div>
         <div class="flex-child-right">
-          <img src="images/f-nw-editor-dark.png" alt="">
+          <img src="images/f-nw-editor-dark.png" alt="Screenshot of the main application window with dark colours.">
         </div>
       </div>
     </div>
@@ -222,7 +222,7 @@
       </div>
       <div class="flex-child-right">
         <div class="flex-sub">
-          <img src="images/download-outline.svg" alt="">
+          <img src="images/download-outline.svg" alt="A decorative download icon.">
         </div>
         <div class="flex-sub">
           <h3>Stable Version</h3>
@@ -282,7 +282,7 @@
       </div>
       <div class="flex-child-right">
         <div class="flex-sub">
-          <img src="images/download-outline.svg" alt="">
+          <img src="images/download-outline.svg" alt="A decorative download icon.">
         </div>
         <div class="flex-sub">
           <h3>Stable Version</h3>
@@ -345,7 +345,7 @@
       </div>
       <div class="flex-child-right">
         <div class="flex-sub">
-          <img src="images/download-outline.svg" alt="">
+          <img src="images/download-outline.svg" alt="A decorative download icon.">
         </div>
         <div class="flex-sub">
           <h3>Stable Version</h3>
@@ -395,7 +395,7 @@
 </main>
 <footer>
   <div class="text-box">
-    <p><b>Copyright &copy; 2018&ndash;<?php echo date("Y"); ?> Veronica Berglyd Olsen</b></p>
+    <p><b>Copyright &copy; 2016&ndash;<?php echo date("Y"); ?> Veronica Berglyd Olsen</b></p>
     <p>novelWriter is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a></p>
     <p>Typicons, used in the app and on this site, are licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
   </div>
