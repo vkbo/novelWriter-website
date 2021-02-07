@@ -5,16 +5,17 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "1.0.4";
-  $nwStableDate   = "2021-02-03";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.0.4";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.0.4/novelWriter-1.0.4-minimal.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.0.4/novelWriter-1.0.4-minimal.zip";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.0.4/novelWriter-1.0.4-minimal.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/v1.0.4.tar.gz";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/v1.0.4.zip";
+  $nwStableVers   = "1.1";
+  $nwStableDate   = "2021-02-07";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.1";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.1/novelWriter-1.1-minimal-win.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.1/novelWriter-1.1-minimal-linux.zip";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.1/novelWriter-1.1-minimal-darwin.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/v1.1.tar.gz";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/v1.1.zip";
 
   // Latest Testing Release
+  $hasTestingvers  = false;
   $nwTestingVers   = "1.1 RC1";
   $nwTestingDate   = "2021-01-31";
   $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.1rc1";
@@ -245,24 +246,28 @@
             </tr>
           </table>
           <h3>Testing Version</h3>
-          <table>
-            <tr>
-              <td><b>Version:</b></td>
-              <td>
-                <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
-                |
-                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Download:</b></td>
-              <td>
-                <a href="<?php echo $nwTestingMinLnx; ?>">Minimal Package</a>
-                |
-                <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
-              </td>
-            </tr>
-          </table>
+          <?php if($hasTestingvers) { ?>
+            <table>
+              <tr>
+                <td><b>Version:</b></td>
+                <td>
+                  <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
+                  |
+                  <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Download:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingMinLnx; ?>">Minimal Package</a>
+                  |
+                  <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
+                </td>
+              </tr>
+            </table>
+          <?php } else { ?>
+            <p>There is currently no testing release.</p>
+          <?php } ?>
         </div>
       </div>
     </div>
@@ -305,24 +310,28 @@
             </tr>
           </table>
           <h3>Testing Version</h3>
-          <table>
-            <tr>
-              <td><b>Version:</b></td>
-              <td>
-                <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
-                |
-                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Download:</b></td>
-              <td>
-                <a href="<?php echo $nwTestingMinWin; ?>">Minimal Package</a>
-                |
-                <a href="<?php echo $nwTestingSrcZip; ?>">Full Source</a>
-              </td>
-            </tr>
-          </table>
+          <?php if($hasTestingvers) { ?>
+            <table>
+              <tr>
+                <td><b>Version:</b></td>
+                <td>
+                  <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
+                  |
+                  <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Download:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingMinWin; ?>">Minimal Package</a>
+                  |
+                  <a href="<?php echo $nwTestingSrcZip; ?>">Full Source</a>
+                </td>
+              </tr>
+            </table>
+          <?php } else { ?>
+            <p>There is currently no testing release.</p>
+          <?php } ?>
         </div>
       </div>
     </div>
@@ -368,24 +377,28 @@
             </tr>
           </table>
           <h3>Testing Version</h3>
-          <table>
-            <tr>
-              <td><b>Version:</b></td>
-              <td>
-                <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
-                |
-                <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Download:</b></td>
-              <td>
-                <a href="<?php echo $nwTestingMinMac; ?>">Minimal Package</a>
-                |
-                <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
-              </td>
-            </tr>
-          </table>
+          <?php if($hasTestingvers) { ?>
+            <table>
+              <tr>
+                <td><b>Version:</b></td>
+                <td>
+                  <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
+                  |
+                  <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Download:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingMinMac; ?>">Minimal Package</a>
+                  |
+                  <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
+                </td>
+              </tr>
+            </table>
+          <?php } else { ?>
+            <p>There is currently no testing release.</p>
+          <?php } ?>
         </div>
       </div>
     </div>
