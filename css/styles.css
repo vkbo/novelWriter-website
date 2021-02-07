@@ -355,6 +355,13 @@ main {
   padding: 0 12px 0 0;
 }
 
+#download-sub {
+  max-width: 780px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
 @media all and (max-width: 600px) {
 
   html, body {
@@ -362,7 +369,7 @@ main {
     max-width: 100%;
   }
 
-  .text-box, #header-content, #nav-box, #intro, #intro-slug, #features {
+  .text-box, #header-content, #nav-box, #intro, #intro-slug, #features, #features-sub, #download-sub {
     width: 92%;
     max-width: 92%;
     padding-left: 4%;

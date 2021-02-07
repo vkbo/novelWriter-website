@@ -403,6 +403,9 @@
       </div>
     </div>
   </div>
+  <div id="download-sub">
+    <p>For older versions, please check the <a href="https://github.com/vkbo/novelWriter/releases">Releases</a> page.</p>
+  </div>
 </section>
 
 </main>
