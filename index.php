@@ -348,7 +348,7 @@
         <p>You should also install the enchant library for spell check support:</p>
         <pre>brew install enchant</pre>
         <p><b>Installation:</b> There are no dedicated install scripts for macOS yet. It will be
-          added at some point, but contributins from mac users would be appreciated. You can run
+          added at some point. Contributins from Mac users would be appreciated. You can run
           novelWriter by executing the <code>novelWriter.py</code> script.</p>
         <p><b>Further Details:</b> <a href="<?php echo $setupMacOS; ?>">macOS Setup</a></p>
       </div>
