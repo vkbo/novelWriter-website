@@ -212,7 +212,7 @@
     <div class="flex-outer">
       <div class="flex-child-left">
         <p><b>Pre-Requisites:</b> Make sure you have at least Python 3.6 installed on your system.
-          You also need the following python packages on Ubuntu/Debian, or equivalen packages if
+          You also need the following python3 packages on Ubuntu/Debian, or equivalen packages if
           you use another OS and package manager:</p>
         <pre>sudo apt install python3-pyqt5 python3-lxml python3-enchant</pre>
         <p><b>Installation:</b> Download the tar.gz file, extract it, and run:</p>
