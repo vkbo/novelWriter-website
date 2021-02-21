@@ -5,14 +5,14 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "1.1";
-  $nwStableDate   = "2021-02-07";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.1";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.1/novelWriter-1.1-minimal-win.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.1/novelWriter-1.1-minimal-linux.zip";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.1/novelWriter-1.1-minimal-darwin.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/v1.1.tar.gz";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/v1.1.zip";
+  $nwStableVers   = "1.1.1";
+  $nwStableDate   = "2021-02-21";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.1.1";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.1.1/novelWriter-1.1.1-minimal-win.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.1.1/novelWriter-1.1.1-minimal-linux.zip";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.1.1/novelWriter-1.1.1-minimal-darwin.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/v1.1.1.tar.gz";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/v1.1.1.zip";
 
   // Latest Testing Release
   $hasTestingvers  = true;
