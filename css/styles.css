@@ -204,9 +204,9 @@ nav ul li a:hover {
 }
 
 nav ul li img {
-  vertical-align: middle;
-  height: 0.9em;
-  margin: 0 4px 2px 0;
+  vertical-align: baseline;
+  height: 0.8em;
+  margin: 0 4px -0.07em 0;
 }
 
 /* Footer */
