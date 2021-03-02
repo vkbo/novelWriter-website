@@ -82,6 +82,7 @@
       <li><a href="https://github.com/vkbo/novelWriter/issues" title="External Link">Report an Issue</a></li>
       <li><a href="https://github.com/vkbo/novelWriter" title="External Link">On GitHub</a></li>
       <li><a href="https://pypi.org/project/novelWriter" title="External Link">On PyPi</a></li>
+      <li><a href="https://ko-fi.com/D1D53R18W" title="External Link"><img src="images/ko-fi-logo.png"> Buy Me a Coffee</a></li>
     </ul>
   </div>
 </nav>
