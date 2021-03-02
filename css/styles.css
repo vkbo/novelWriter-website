@@ -250,6 +250,10 @@ main {
   width: 90%;
 }
 
+#intro .flex-child-right {
+  text-align: right;
+}
+
 #intro-slug {
   max-width: 1080px;
   padding: 0;
