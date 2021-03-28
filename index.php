@@ -216,9 +216,9 @@
           You also need the following python3 packages on Ubuntu/Debian, or equivalen packages if
           you use another OS and package manager:</p>
         <pre>sudo apt install python3-pyqt5 python3-lxml python3-enchant</pre>
-        <p><b>Installation:</b> Download the tar.gz file, extract it, and run:</p>
-        <pre>./setup.py install</pre>
-        <p><b>Launcher:</b> To install launcher icons, you can also run:</p>
+        <p><b>Installation:</b> Download the Minimal Package file and extract it to a suitable
+          location on your computer. For instance to <code>/opt/novelWriter</code>.</p>
+        <p><b>Launcher:</b> If you want to install launcher and icons, you can run:</p>
         <pre>./setup.py xdg-install</pre>
         <p><b>Further Details:</b> <a href="<?php echo $setupLinux; ?>">Linux Setup</a></p>
       </div>
@@ -284,7 +284,7 @@
           or above is required. If you don't have Python, you can download the latest
           version from <a href="https://www.python.org/downloads/">python.org</a>. Make
           sure you select the "Add Python to PATH" option during installation.</p>
-        <p><b>Installation:</b> Download the zip file, extract it to where you want to
+        <p><b>Installation:</b> Download the Minimal Package, extract it to where you want to
           keep the novelWriter program files, and run the <code>setup_windows.bat</code>
           file inside the extracted folder. This will install the Qt libraries and a couple
           of other needed packages from PyPi, and set up desktop and start menu icons.</p>
