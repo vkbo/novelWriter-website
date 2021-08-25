@@ -26,9 +26,9 @@
   $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5b1.tar.gz";
 
   // URLs
-  $setupLinux   = "https://novelwriter.readthedocs.io/en/stable/setup_linux.html";
-  $setupWindows = "https://novelwriter.readthedocs.io/en/stable/setup_windows.html";
-  $setupMacOS   = "https://novelwriter.readthedocs.io/en/stable/setup_mac.html";
+  $setupLinux   = "https://novelwriter.readthedocs.io/en/latest/setup_linux.html";
+  $setupWindows = "https://novelwriter.readthedocs.io/en/latest/setup_windows.html";
+  $setupMacOS   = "https://novelwriter.readthedocs.io/en/latest/setup_mac.html";
 
   // Settings
   $fmtDateL = "F j, Y";
