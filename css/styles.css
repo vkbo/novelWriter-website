@@ -358,7 +358,7 @@ main {
 }
 
 #download table tr td {
-  padding: 0;
+  padding: 2px 0;
 }
 
 #download table tr td:first-child {

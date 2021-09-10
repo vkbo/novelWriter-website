@@ -11,24 +11,30 @@
   $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-minimal-darwin.zip";
   $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-minimal-linux.zip";
   $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-minimal-win.zip";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-py3-none-any.whl";
   $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.4.2.zip";
   $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.4.2.tar.gz";
 
   // Latest Testing Release
   $hasTestingvers  = true;
-  $nwTestingVers   = "1.5 Beta 2";
-  $nwTestingDate   = "2021-08-26";
-  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5b2";
-  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.5b2/novelWriter-1.5-beta2-minimal-darwin.zip";
-  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5b2/novelWriter-1.5-beta2-minimal-linux.zip";
-  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5b2/novelWriter-1.5-beta2-minimal-win.zip";
-  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5b2.zip";
-  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5b2.tar.gz";
+  $nwTestingVers   = "1.5 RC 1";
+  $nwTestingDate   = "2021-09-10";
+  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5rc1";
+  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-minimal-darwin.zip";
+  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-minimal-linux.zip";
+  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-minimal-win.zip";
+  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelwriter_1.5rc1_all.deb";
+  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-py3-none-any.whl";
+  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5rc1.zip";
+  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5rc1.tar.gz";
 
   // URLs
   $setupLinux   = "https://novelwriter.readthedocs.io/en/latest/setup_linux.html";
   $setupWindows = "https://novelwriter.readthedocs.io/en/latest/setup_windows.html";
   $setupMacOS   = "https://novelwriter.readthedocs.io/en/latest/setup_mac.html";
+
+  $ppaFull = "https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter";
+  $ppaPre  = "https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter-pre";
 
   // Settings
   $fmtDateL = "F j, Y";
@@ -212,14 +218,18 @@
     <h2>Linux</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>Pre-Requisites:</b> Make sure you have at least Python 3.6 installed on your system.
-          You also need the following python3 packages on Ubuntu/Debian, or equivalen packages if
-          you use another distro and package manager:</p>
+        <p><b>Ubuntu:</b> A <a href="<?php echo $ppaFull; ?>">PPA</a>
+          is available for easy installation and updating:</p>
+        <pre><?php echo "sudo add-apt-repository ppa:vkbo/novelwriter\nsudo apt update && sudo apt install novelwriter"; ?></pre>
+        <p><b>Debian:</b> Download the debian package and install it with:</p>
+        <pre>sudo apt install ./path/to/downloaded/package.deb</pre>
+        <p>The PPA will also work on Debian, but see <a href="<?php echo $setupLinux; ?>">Linux Setup</a>
+          for how to add the key.</p>
+        <p><b>Minimal:</b> Download the Minimal Package file and extract it to a suitable location.
+          Make sure dependencies are installed. On Ubuntu and Debian run:</p>
         <pre>sudo apt install python3-pyqt5 python3-lxml python3-enchant</pre>
-        <p><b>Installation:</b> Download the Minimal Package file and extract it to a suitable
-          location on your computer. For instance to <code>/opt/novelWriter</code>.</p>
-        <p><b>Launcher:</b> If you want to install launcher and icons, you can run:</p>
-        <pre>./setup.py xdg-install</pre>
+        <p>You can install a launcher and icons by running:</p>
+        <pre>python3 setup.py xdg-install</pre>
         <p><b>Further Details:</b> <a href="<?php echo $setupLinux; ?>">Linux Setup</a></p>
       </div>
       <div class="flex-child-right">
@@ -238,11 +248,23 @@
               </td>
             </tr>
             <tr>
-              <td><b>Download:</b></td>
+              <td><b>Ubuntu:</b></td>
+              <td>
+                <a href="<?php echo $ppaFull; ?>">Launcpad PPA</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Minimal:</b></td>
               <td>
                 <a href="<?php echo $nwStableMinLnx; ?>">Minimal Package</a>
                 |
                 <a href="<?php echo $nwStableMinLnx.".sha256"; ?>">SHA256</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Other:</b></td>
+              <td>
+                <a href="<?php echo $nwStablePWheel; ?>">Python Wheel</a>
                 |
                 <a href="<?php echo $nwStableSrcTar; ?>">Full Source</a>
               </td>
@@ -260,11 +282,31 @@
                 </td>
               </tr>
               <tr>
-                <td><b>Download:</b></td>
+                <td><b>Ubuntu:</b></td>
+                <td>
+                  <a href="<?php echo $ppaPre; ?>">Launcpad PPA (Pre-Release)</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Debian:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingDebian; ?>">Debian Package</a>
+                  |
+                  <a href="<?php echo $nwTestingDebian.".sha256"; ?>">SHA256</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Minimal:</b></td>
                 <td>
                   <a href="<?php echo $nwTestingMinLnx; ?>">Minimal Package</a>
                   |
                   <a href="<?php echo $nwTestingMinLnx.".sha256"; ?>">SHA256</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Other:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingPWheel; ?>">Python Wheel</a>
                   |
                   <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
                 </td>
@@ -306,11 +348,17 @@
               </td>
             </tr>
             <tr>
-              <td><b>Download:</b></td>
+              <td><b>Minimal:</b></td>
               <td>
                 <a href="<?php echo $nwStableMinWin; ?>">Minimal Package</a>
                 |
                 <a href="<?php echo $nwStableMinWin.".sha256"; ?>">SHA256</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Other:</b></td>
+              <td>
+                <a href="<?php echo $nwStablePWheel; ?>">Python Wheel</a>
                 |
                 <a href="<?php echo $nwStableSrcZip; ?>">Full Source</a>
               </td>
@@ -328,11 +376,17 @@
                 </td>
               </tr>
               <tr>
-                <td><b>Download:</b></td>
+                <td><b>Minimal:</b></td>
                 <td>
                   <a href="<?php echo $nwTestingMinWin; ?>">Minimal Package</a>
                   |
                   <a href="<?php echo $nwTestingMinWin.".sha256"; ?>">SHA256</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Other:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingPWheel; ?>">Python Wheel</a>
                   |
                   <a href="<?php echo $nwTestingSrcZip; ?>">Full Source</a>
                 </td>
@@ -377,11 +431,17 @@
               </td>
             </tr>
             <tr>
-              <td><b>Download:</b></td>
+              <td><b>Minimal:</b></td>
               <td>
                 <a href="<?php echo $nwStableMinMac; ?>">Minimal Package</a>
                 |
                 <a href="<?php echo $nwStableMinMac.".sha256"; ?>">SHA256</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Other:</b></td>
+              <td>
+                <a href="<?php echo $nwStablePWheel; ?>">Python Wheel</a>
                 |
                 <a href="<?php echo $nwStableSrcTar; ?>">Full Source</a>
               </td>
@@ -399,11 +459,17 @@
                 </td>
               </tr>
               <tr>
-                <td><b>Download:</b></td>
+                <td><b>Minimal:</b></td>
                 <td>
                   <a href="<?php echo $nwTestingMinMac; ?>">Minimal Package</a>
                   |
                   <a href="<?php echo $nwTestingMinMac.".sha256"; ?>">SHA256</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Other:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingPWheel; ?>">Python Wheel</a>
                   |
                   <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
                 </td>
