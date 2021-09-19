@@ -5,18 +5,19 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "1.4.2";
-  $nwStableDate   = "2021-08-30";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.4.2";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-minimal-darwin.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-minimal-linux.zip";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-minimal-win.zip";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.4.2/novelWriter-1.4.2-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.4.2.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.4.2.tar.gz";
+  $nwStableVers   = "1.5";
+  $nwStableDate   = "2021-09-19";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.5/novelWriter-1.5.0-minimal-darwin.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5/novelWriter-1.5.0-minimal-linux.zip";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5/novelWriter-1.5.0-minimal-win.zip";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.5/novelwriter_1.5.0_all.deb";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.5/novelWriter-1.5.0-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.tar.gz";
 
   // Latest Testing Release
-  $hasTestingvers  = true;
+  $hasTestingvers  = false;
   $nwTestingVers   = "1.5 RC 1";
   $nwTestingDate   = "2021-09-10";
   $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5rc1";
@@ -251,6 +252,14 @@
               <td><b>Ubuntu:</b></td>
               <td>
                 <a href="<?php echo $ppaFull; ?>">Launcpad PPA</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Debian:</b></td>
+              <td>
+                <a href="<?php echo $nwStableDebian; ?>">Debian Package</a>
+                |
+                <a href="<?php echo $nwStableDebian.".sha256"; ?>">SHA256</a>
               </td>
             </tr>
             <tr>
