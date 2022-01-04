@@ -5,16 +5,16 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "1.5.3";
-  $nwStableDate   = "2021-12-31";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5.3";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.5.3/novelWriter-1.5.3-minimal-darwin.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5.3/novelWriter-1.5.3-minimal-linux.zip";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5.3/novelWriter-1.5.3-minimal-win.zip";
-  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.5.3/novelwriter_1.5.3_all.deb";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.5.3/novelWriter-1.5.3-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.3.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.3.tar.gz";
+  $nwStableVers   = "1.5.4";
+  $nwStableDate   = "2022-01-04";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5.4";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.5.4/novelWriter-1.5.4-minimal-darwin.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5.4/novelWriter-1.5.4-minimal-linux.zip";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5.4/novelWriter-1.5.4-minimal-win.zip";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.5.4/novelwriter_1.5.4_all.deb";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.5.4/novelWriter-1.5.4-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.4.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.4.tar.gz";
 
   // Latest Testing Release
   $hasTestingvers  = false;
