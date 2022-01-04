@@ -17,17 +17,17 @@
   $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.4.tar.gz";
 
   // Latest Testing Release
-  $hasTestingvers  = false;
-  $nwTestingVers   = "1.5 RC 1";
-  $nwTestingDate   = "2021-09-10";
-  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.5rc1";
-  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-minimal-darwin.zip";
-  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-minimal-linux.zip";
-  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-minimal-win.zip";
-  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelwriter_1.5rc1_all.deb";
-  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.5rc1/novelWriter-1.5rc1-py3-none-any.whl";
-  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5rc1.zip";
-  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5rc1.tar.gz";
+  $hasTestingvers  = true;
+  $nwTestingVers   = "1.6 Beta 1";
+  $nwTestingDate   = "2022-01-04";
+  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.6b1";
+  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-minimal-darwin.zip";
+  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-minimal-linux.zip";
+  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-minimal-win.zip";
+  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelwriter_1.6b1_all.deb";
+  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-py3-none-any.whl";
+  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6b1.zip";
+  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6b1.tar.gz";
 
   // URLs
   $setupLinux   = "https://novelwriter.readthedocs.io/en/latest/setup_linux.html";
