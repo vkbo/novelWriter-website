@@ -12,6 +12,7 @@
   $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.5.5/novelWriter-1.5.5-minimal-linux.zip";
   $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.5.5/novelWriter-1.5.5-minimal-win.zip";
   $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.5.5/novelwriter_1.5.5_all.deb";
+  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.5.5/novelwriter-1.5.5-win10-amd64-setup.exe";
   $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.5.5/novelWriter-1.5.5-py3-none-any.whl";
   $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.5.zip";
   $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.5.5.tar.gz";
@@ -25,6 +26,7 @@
   $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-minimal-linux.zip";
   $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-minimal-win.zip";
   $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelwriter_1.6b1_all.deb";
+  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelwriter-1.6b1-win10-amd64-setup.exe";
   $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.6b1/novelWriter-1.6b1-py3-none-any.whl";
   $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6b1.zip";
   $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6b1.tar.gz";
@@ -331,14 +333,16 @@
     <h2>Windows</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>Pre-Requisites:</b> Make sure you have Python installed. Version 3.6
-          or above is required. If you don't have Python, you can download the latest
-          version from <a href="https://www.python.org/downloads/">python.org</a>. Make
-          sure you select the "Add Python to PATH" option during installation.</p>
-        <p><b>Installation:</b> Download the Minimal Package, extract it to where you want to
-          keep the novelWriter program files, and run the <code>setup_windows.bat</code>
-          file inside the extracted folder. This will install the Qt libraries and a couple
-          of other needed packages from PyPi, and set up desktop and start menu icons.</p>
+        <p><b>Windows Installer:</b> The simplest way to install novelWriter is to download the
+          Windows Installer package and run it. Note that the installer is not signed, so you will
+          get a warning that it is from an unknown publisher. This is normal for unsigned packages
+          and you must select "Run Anyway" to proceed.</p>
+        <p><b>Alternative:</b> You can also download and install the lastet version of Python from 
+          <a href="https://www.python.org/downloads/">python.org</a> and then download and extract
+          the Minimal Package. You can extract it to where you want to keep the novelWriter program
+          files, and run the <code>setup_windows.bat</code> file inside the extracted folder. This
+          will install the Qt libraries and a couple of other needed packages from PyPi, and set up
+          desktop and start menu icons.</p>
         <p><b>Further Details:</b> <a href="<?php echo $setupWindows; ?>">Windows Setup</a></p>
       </div>
       <div class="flex-child-right">
@@ -354,6 +358,14 @@
                 <?php echo $nwStableVers; ?> from <?php echo date($fmtDateS, strtotime($nwStableDate)); ?>
                 |
                 <a href="<?php echo $nwStableNotes; ?>">Release Notes</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Installer:</b></td>
+              <td>
+                <a href="<?php echo $nwStableWinExe; ?>">Windows Installer</a>
+                |
+                <a href="<?php echo $nwStableWinExe.".sha256"; ?>">SHA256</a>
               </td>
             </tr>
             <tr>
@@ -382,6 +394,14 @@
                   <?php echo $nwTestingVers; ?> from <?php echo date($fmtDateS, strtotime($nwTestingDate)); ?>
                   |
                   <a href="<?php echo $nwTestingNotes; ?>">Release Notes</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>Installer:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingWinExe; ?>">Windows Installer</a>
+                  |
+                  <a href="<?php echo $nwTestingWinExe.".sha256"; ?>">SHA256</a>
                 </td>
               </tr>
               <tr>
