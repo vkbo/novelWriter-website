@@ -32,12 +32,9 @@
   $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6b1.tar.gz";
 
   // URLs
-  $setupLinux   = "https://novelwriter.readthedocs.io/en/latest/setup_linux.html";
-  $setupWindows = "https://novelwriter.readthedocs.io/en/latest/setup_windows.html";
-  $setupMacOS   = "https://novelwriter.readthedocs.io/en/latest/setup_mac.html";
-
-  $ppaFull = "https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter";
-  $ppaPre  = "https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter-pre";
+  $docsSetup = "https://novelwriter.readthedocs.io/en/latest/int_started.html";
+  $ppaFull   = "https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter";
+  $ppaPre    = "https://launchpad.net/~vkbo/+archive/ubuntu/novelwriter-pre";
 
   // Settings
   $fmtDateL = "F j, Y";
@@ -233,7 +230,7 @@
         <pre>sudo apt install python3-pyqt5 python3-lxml python3-enchant</pre>
         <p>You can install a launcher and icons by running:</p>
         <pre>python3 setup.py xdg-install</pre>
-        <p><b>Further Details:</b> <a href="<?php echo $setupLinux; ?>">Linux Setup</a></p>
+        <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
         <div class="flex-sub">
@@ -343,7 +340,7 @@
           files, and run the <code>setup_windows.bat</code> file inside the extracted folder. This
           will install the Qt libraries and a couple of other needed packages from PyPi, and set up
           desktop and start menu icons.</p>
-        <p><b>Further Details:</b> <a href="<?php echo $setupWindows; ?>">Windows Setup</a></p>
+        <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
         <div class="flex-sub">
@@ -442,7 +439,7 @@
         <p><b>Installation:</b> There are no dedicated install scripts for macOS yet. It will be
           added at some point. Contributins from Mac users would be appreciated. You can run
           novelWriter by executing the <code>novelWriter.py</code> script.</p>
-        <p><b>Further Details:</b> <a href="<?php echo $setupMacOS; ?>">macOS Setup</a></p>
+        <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
         <div class="flex-sub">
