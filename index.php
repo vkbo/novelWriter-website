@@ -223,7 +223,7 @@
         <pre><?php echo "sudo add-apt-repository ppa:vkbo/novelwriter\nsudo apt update && sudo apt install novelwriter"; ?></pre>
         <p><b>Debian:</b> Download the debian package and install it with:</p>
         <pre>sudo apt install ./path/to/downloaded/package.deb</pre>
-        <p>The PPA will also work on Debian, but see <a href="<?php echo $setupLinux; ?>">Linux Setup</a>
+        <p>The PPA will also work on Debian, but see <a href="<?php echo $docsSetup; ?>">Getting Started</a>
           for how to add the key.</p>
         <p><b>Minimal:</b> Download the Minimal Package file and extract it to a suitable location.
           Make sure dependencies are installed. On Ubuntu and Debian run:</p>
