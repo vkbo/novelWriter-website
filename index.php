@@ -5,17 +5,17 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "1.6";
-  $nwStableDate   = "2022-02-20";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.6";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.6/novelwriter-1.6-minimal-darwin.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.6/novelwriter-1.6-minimal-linux.zip";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.6/novelwriter-1.6-minimal-win.zip";
-  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.6/novelwriter_1.6_all.deb";
-  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.6/novelwriter-1.6-win10-amd64-setup.exe";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.6/novelWriter-1.6-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.tar.gz";
+  $nwStableVers   = "1.6.1";
+  $nwStableDate   = "2022-03-16";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.6.1";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.6.1/novelwriter-1.6.1-minimal-darwin.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.6.1/novelwriter-1.6.1-minimal-linux.zip";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.6.1/novelwriter-1.6.1-minimal-win.zip";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.6.1/novelwriter_1.6.1_all.deb";
+  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.6.1/novelwriter-1.6.1-win10-amd64-setup.exe";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.6.1/novelWriter-1.6.1-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.1.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.1.tar.gz";
 
   // Latest Testing Release
   $hasTestingvers  = false;
