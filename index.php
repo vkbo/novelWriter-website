@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 
-// Settings
+  // Settings
   // ========
 
   // Latest Stable Release
@@ -83,12 +83,14 @@
     <ul>
       <li><a href="#features">Features</a></li>
       <li><a href="#download">Download</a></li>
-      <li><a href="https://novelwriter.readthedocs.io" title="External Link">Documentation</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter/discussions" title="External Link">Ask a Question</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter/issues" title="External Link">Report an Issue</a></li>
-      <li><a href="https://github.com/vkbo/novelWriter" title="External Link">On GitHub</a></li>
-      <li><a href="https://pypi.org/project/novelWriter" title="External Link">On PyPi</a></li>
-      <li><a href="https://ko-fi.com/D1D53R18W" title="External Link"><img src="images/ko-fi-logo.png"> Buy Me a Coffee</a></li>
+      <li><a href="https://novelwriter.readthedocs.io" title="Read the Docs (External)">Manual</a></li>
+      <li><a href="https://crowdin.com/project/novelwriter" title="Help Translate on Crowdin (External)">Translate</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter" title="Source Code (External)">Source</a></li>
+      <li><a href="https://pypi.org/project/novelWriter" title="Python Package Index (External)">PyPi</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter/issues" title="Report an Issue (External)">Bug Reports</a></li>
+      <li><a href="https://github.com/vkbo/novelWriter/discussions" title="Ask a Question (External)">Questions</a></li>
+      <li><a rel="me" href="https://fosstodon.org/@novelwriter" title="Follow on Mastodon (External)">Follow on Mastodon</a></li>
+      <li><a href="https://ko-fi.com/D1D53R18W" title="Buy Me a Coffee (External)"><img src="images/ko-fi-logo.png"> Buy Me a Coffee</a></li>
     </ul>
   </div>
 </nav>
@@ -518,7 +520,10 @@
   <div class="text-box">
     <p><b>Copyright &copy; 2016&ndash;<?php echo date("Y"); ?> Veronica Berglyd Olsen</b></p>
     <p>novelWriter is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a></p>
-    <p>Typicons, used in the app and on this site, are licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p>Typicons, used in the app and on this site, are licensed under
+      <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+      <a rel="me" href="https://mastodon.online/@veronica"></a>
+      <a rel="me" href="https://tech.lgbt/@veronica"></a></p>
   </div>
 </footer>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
