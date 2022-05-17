@@ -18,18 +18,18 @@
   $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.2.tar.gz";
 
   // Latest Testing Release
-  $hasTestingvers  = false;
-  $nwTestingVers   = "1.6 RC 1";
-  $nwTestingDate   = "2022-02-06";
-  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.6rc1";
-  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelwriter-1.6rc1-minimal-darwin.zip";
-  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelwriter-1.6rc1-minimal-linux.zip";
-  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelwriter-1.6rc1-minimal-win.zip";
-  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelwriter_1.6rc1_all.deb";
-  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelwriter-1.6rc1-win10-amd64-setup.exe";
-  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.6rc1/novelWriter-1.6rc1-py3-none-any.whl";
-  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6rc1.zip";
-  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6rc1.tar.gz";
+  $hasTestingvers  = true;
+  $nwTestingVers   = "1.7 Beta 1";
+  $nwTestingDate   = "2022-05-17";
+  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.7b1";
+  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-minimal-darwin.zip";
+  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-minimal-linux.zip";
+  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-minimal-win.zip";
+  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter_1.7b1_all.deb";
+  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-win10-amd64-setup.exe";
+  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelWriter-1.7b1-py3-none-any.whl";
+  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.7b1.zip";
+  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.7b1.tar.gz";
 
   // URLs
   $docsSetup = "https://novelwriter.readthedocs.io/en/latest/int_started.html";
@@ -278,6 +278,8 @@
               <td>
                 <a href="<?php echo $nwStablePWheel; ?>">Python Wheel</a>
                 |
+                <a href="<?php echo $nwStablePWheel.".sha256"; ?>">SHA256</a>
+                |
                 <a href="<?php echo $nwStableSrcTar; ?>">Full Source</a>
               </td>
             </tr>
@@ -319,6 +321,8 @@
                 <td><b>Other:</b></td>
                 <td>
                   <a href="<?php echo $nwTestingPWheel; ?>">Python Wheel</a>
+                  |
+                  <a href="<?php echo $nwTestingPWheel.".sha256"; ?>">SHA256</a>
                   |
                   <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
                 </td>
@@ -382,6 +386,8 @@
               <td>
                 <a href="<?php echo $nwStablePWheel; ?>">Python Wheel</a>
                 |
+                <a href="<?php echo $nwStablePWheel.".sha256"; ?>">SHA256</a>
+                |
                 <a href="<?php echo $nwStableSrcZip; ?>">Full Source</a>
               </td>
             </tr>
@@ -417,6 +423,8 @@
                 <td><b>Other:</b></td>
                 <td>
                   <a href="<?php echo $nwTestingPWheel; ?>">Python Wheel</a>
+                  |
+                  <a href="<?php echo $nwTestingPWheel.".sha256"; ?>">SHA256</a>
                   |
                   <a href="<?php echo $nwTestingSrcZip; ?>">Full Source</a>
                 </td>
@@ -473,6 +481,8 @@
               <td>
                 <a href="<?php echo $nwStablePWheel; ?>">Python Wheel</a>
                 |
+                <a href="<?php echo $nwStablePWheel.".sha256"; ?>">SHA256</a>
+                |
                 <a href="<?php echo $nwStableSrcTar; ?>">Full Source</a>
               </td>
             </tr>
@@ -500,6 +510,8 @@
                 <td><b>Other:</b></td>
                 <td>
                   <a href="<?php echo $nwTestingPWheel; ?>">Python Wheel</a>
+                  |
+                  <a href="<?php echo $nwTestingPWheel.".sha256"; ?>">SHA256</a>
                   |
                   <a href="<?php echo $nwTestingSrcTar; ?>">Full Source</a>
                 </td>
