@@ -141,6 +141,20 @@
     <div class="feature-slide">
       <div class="flex-outer">
         <div class="flex-child-left">
+          <h2>Alternative Novel Overview</h2>
+          <p>When you have structured the main sections of your novel, in terms of chapters and
+            scenes, you can switch to a Novel View instead.</p>
+          <p>The Novel View lets you see the full structure of your novel, and you can still open
+            each chapter or scene for editing like from the regular Project View.</p>
+        </div>
+        <div class="flex-child-right">
+          <img src="images/f-nw-novelview-light.png" alt="Screenshot of the main application window with the Novel View.">
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide">
+      <div class="flex-outer">
+        <div class="flex-child-left">
           <h2>Project Outline</h2>
           <p>The <i>Outline</i> tab gives you a quick overview of the structure of your novel in
             terms of your chapters and scenes.</p>
