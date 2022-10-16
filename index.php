@@ -143,7 +143,7 @@
         <div class="flex-child-left">
           <h2>Alternative Novel Overview</h2>
           <p>When you have structured the main sections of your novel, in terms of chapters and
-            scenes, you can switch to a Novel View instead.</p>
+            scenes, you can switch to a <i>Novel View</i> instead.</p>
           <p>The Novel View lets you see the full structure of your novel, and you can still open
             each chapter or scene for editing like from the regular Project View.</p>
         </div>
@@ -561,7 +561,7 @@
       "slidesToScroll": 1,
       "dots": true,
       "autoplay": true,
-      "autoplaySpeed": 5000,
+      "autoplaySpeed": 16000,
     });
   });
 </script>
