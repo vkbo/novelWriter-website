@@ -454,7 +454,7 @@
     <h2>macOS</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>Pre-Requisites:</b> Make sure you have Python installed. Version 3.6 or above is
+        <p><b>Pre-Requisites:</b> Make sure you have Python installed. Version 3.7 or above is
           required. These instructions assume you're using the Homebrew version of Python. For
           further instructions, check the <a href="https://docs.brew.sh/Homebrew-and-Python">Python
           brew docs</a>.</p>
@@ -462,9 +462,10 @@
         <pre>pip3 install --user pyobjc -r requirements.txt</pre>
         <p>You should also install the enchant library for spell check support:</p>
         <pre>brew install enchant</pre>
-        <p><b>Installation:</b> There are no dedicated install scripts for macOS yet. It will be
-          added at some point. Contributins from Mac users would be appreciated. You can run
-          novelWriter by executing the <code>novelWriter.py</code> script.</p>
+        <p><b>Installation:</b> There are no dedicated installs for macOS yet. It will be added at
+          some point. <a href="https://github.com/vkbo/novelWriter/issues/867">Contributins from
+          Mac users</a> would be appreciated. You can run novelWriter by executing the
+          <code>novelWriter.py</code> script.</p>
         <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
