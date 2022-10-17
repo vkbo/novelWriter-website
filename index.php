@@ -19,17 +19,18 @@
 
   // Latest Testing Release
   $hasTestingvers  = true;
-  $nwTestingVers   = "1.7 Beta 1";
-  $nwTestingDate   = "2022-05-17";
-  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.7b1";
-  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-minimal-darwin.zip";
-  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-minimal-linux.zip";
-  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-minimal-win.zip";
-  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter_1.7b1_all.deb";
-  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelwriter-1.7b1-win10-amd64-setup.exe";
-  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.7b1/novelWriter-1.7b1-py3-none-any.whl";
-  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.7b1.zip";
-  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.7b1.tar.gz";
+  $nwTestingVers   = "2.0 RC 1";
+  $nwTestingDate   = "2022-10-17";
+  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0rc1";
+  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-minimal-darwin.zip";
+  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-minimal-linux.zip";
+  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-minimal-win.zip";
+  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter_2.0rc1_all.deb";
+  $nwTestingAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelWriter-2.0rc1-py3.10.6-x86_64.AppImage";
+  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-py3.10.8-win10-amd64-setup.exe";
+  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelWriter-2.0rc1-py3-none-any.whl";
+  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0rc1.zip";
+  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0rc1.tar.gz";
 
   // URLs
   $docsSetup = "https://novelwriter.readthedocs.io/en/latest/int_started.html";
@@ -321,6 +322,14 @@
                   <a href="<?php echo $nwTestingDebian; ?>">Debian Package</a>
                   |
                   <a href="<?php echo $nwTestingDebian.".sha256"; ?>">SHA256</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b>AppImage:</b></td>
+                <td>
+                  <a href="<?php echo $nwTestingAppImg; ?>">AppImage Package</a>
+                  |
+                  <a href="<?php echo $nwTestingAppImg.".sha256"; ?>">SHA256</a>
                 </td>
               </tr>
               <tr>
