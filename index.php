@@ -19,18 +19,18 @@
 
   // Latest Testing Release
   $hasTestingvers  = true;
-  $nwTestingVers   = "2.0 RC 1";
-  $nwTestingDate   = "2022-10-17";
-  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0rc1";
-  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-minimal-darwin.zip";
-  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-minimal-linux.zip";
-  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-minimal-win.zip";
-  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter_2.0rc1_all.deb";
-  $nwTestingAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelWriter-2.0rc1-py3.10.6-x86_64.AppImage";
-  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelwriter-2.0rc1-py3.10.8-win10-amd64-setup.exe";
-  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc1/novelWriter-2.0rc1-py3-none-any.whl";
-  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0rc1.zip";
-  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0rc1.tar.gz";
+  $nwTestingVers   = "2.0 RC 2";
+  $nwTestingDate   = "2022-11-13";
+  $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0rc2";
+  $nwTestingMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelwriter-2.0rc2-minimal-darwin.zip";
+  $nwTestingMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelwriter-2.0rc2-minimal-linux.zip";
+  $nwTestingMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelwriter-2.0rc2-minimal-win.zip";
+  $nwTestingDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelwriter_2.0rc2_all.deb";
+  $nwTestingAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelWriter-2.0rc2-py3.10-manylinux2010_x86_64.AppImage";
+  $nwTestingWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelwriter-2.0rc2-py3.10.8-win10-amd64-setup.exe";
+  $nwTestingPWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0rc2/novelWriter-2.0rc2-py3-none-any.whl";
+  $nwTestingSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0rc2.zip";
+  $nwTestingSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0rc2.tar.gz";
 
   // URLs
   $docsSetup = "https://novelwriter.readthedocs.io/en/latest/int_started.html";
