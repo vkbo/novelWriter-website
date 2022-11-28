@@ -5,20 +5,21 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "1.6.6";
-  $nwStableDate   = "2022-10-25";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v1.6.6";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v1.6.6/novelwriter-1.6.6-minimal-darwin.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v1.6.6/novelwriter-1.6.6-minimal-linux.zip";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v1.6.6/novelwriter-1.6.6-minimal-win.zip";
-  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v1.6.6/novelwriter_1.6.6_all.deb";
-  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v1.6.6/novelwriter-1.6.6-py3.10.8-win10-amd64-setup.exe";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v1.6.6/novelWriter-1.6.6-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.6.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v1.6.6.tar.gz";
+  $nwStableVers   = "2.0";
+  $nwStableDate   = "2022-11-28";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelwriter-2.0-minimal-darwin.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelwriter-2.0-minimal-linux.zip";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelwriter-2.0-minimal-win.zip";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelwriter_2.0_all.deb";
+  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelWriter-2.0-py3.10-manylinux2010_x86_64.AppImage";
+  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelwriter-2.0-py3.10.8-win10-amd64-setup.exe";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0/novelWriter-2.0-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.tar.gz";
 
   // Latest Testing Release
-  $hasTestingvers  = true;
+  $hasTestingvers  = false;
   $nwTestingVers   = "2.0 RC 2";
   $nwTestingDate   = "2022-11-13";
   $nwTestingNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0rc2";
@@ -278,6 +279,14 @@
                 <a href="<?php echo $nwStableDebian; ?>">Debian Package</a>
                 |
                 <a href="<?php echo $nwStableDebian.".sha256"; ?>">SHA256</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>AppImage:</b></td>
+              <td>
+                <a href="<?php echo $nwStableAppImg; ?>">AppImage Package</a>
+                |
+                <a href="<?php echo $nwStableAppImg.".sha256"; ?>">SHA256</a>
               </td>
             </tr>
             <tr>
