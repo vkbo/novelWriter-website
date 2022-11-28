@@ -66,6 +66,7 @@ pre {
   border-radius: 4px;
   padding: 4px;
   margin: 0 12px 0.4em 12px;
+  overflow: auto;
 }
 
 .text-box {
