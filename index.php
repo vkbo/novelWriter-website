@@ -322,7 +322,7 @@
               <tr>
                 <td><b>Ubuntu:</b></td>
                 <td>
-                  <a href="<?php echo $ppaPre; ?>">Launcpad PPA (Pre-Release)</a>
+                  <a href="<?php echo $ppaPre; ?>">Launchpad PPA (Pre-Release)</a>
                 </td>
               </tr>
               <tr>
