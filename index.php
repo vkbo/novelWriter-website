@@ -270,7 +270,7 @@
             <tr>
               <td><b>Ubuntu:</b></td>
               <td>
-                <a href="<?php echo $ppaFull; ?>">Launcpad PPA</a>
+                <a href="<?php echo $ppaFull; ?>">Launchpad PPA</a>
               </td>
             </tr>
             <tr>
