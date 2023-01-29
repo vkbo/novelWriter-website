@@ -5,18 +5,18 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "2.0.3";
-  $nwStableDate   = "2023-01-08";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0.3";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelwriter-2.0.3-minimal-darwin.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelwriter-2.0.3-minimal-linux.zip";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelwriter-2.0.3-minimal-win.zip";
-  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelwriter_2.0.3_all.deb";
-  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelWriter-2.0.3-py3.10-manylinux2010_x86_64.AppImage";
-  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelwriter-2.0.3-py3.10.9-win10-amd64-setup.exe";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.3/novelWriter-2.0.3-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.3.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.3.tar.gz";
+  $nwStableVers   = "2.0.4";
+  $nwStableDate   = "2023-01-29";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0.4";
+  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-minimal-darwin.zip";
+  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-minimal-linux.zip";
+  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-minimal-win.zip";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter_2.0.4_all.deb";
+  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelWriter-2.0.4-py3.10-manylinux2010_x86_64.AppImage";
+  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-py3.10.9-win10-amd64-setup.exe";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelWriter-2.0.4-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.4.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.4.tar.gz";
 
   // Latest Testing Release
   $hasTestingvers  = false;
