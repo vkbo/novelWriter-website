@@ -11,7 +11,6 @@
   $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter_2.0.5_all.deb";
   $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3.10-manylinux2010_x86_64.AppImage";
   $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter-2.0.5-py3.10.10-win10-amd64-setup.exe";
-  $nwStableMacApp = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-macos.app.zip";
   $nwStableMacDmg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-macos.dmg";
   $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3-none-any.whl";
   $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.zip";
@@ -449,14 +448,13 @@
     <h2>MacOS</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>App Bundle:</b> Download and extract the App Bundle Zip file to a suitable location
-          and run it.</p>
-        <p><b>DMG Image:</b> Download the DMG file to a suitable location and run it. For more
-          info on how to use DMG files, see for instance this article on
-          <a href="https://www.howtogeek.com/362166/what-is-a-dmg-file-and-how-do-i-use-one/">How-To Geek</a>.</p>
+        <p><b>App Image:</b> Download the DMG file and open it. Then drag the novelWriter icon to
+          the Applications folder on the right. This will install it into your Applications. The
+          first time you try to launch it, it will say that the it cannot be verified. The Help
+          instructions will tell you how to approve it.</p>
         <p><b>Alternative:</b> If you have a functioning Python environment on your computer, you
           can install novelWriter from PyPi with the following command in CMD or PowerShell:</p>
-        <pre>pip install --user novelwriter</pre>
+        <pre>pip3 install --user novelwriter</pre>
         <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
@@ -475,17 +473,9 @@
               </td>
             </tr>
             <tr>
-              <td><b>Bundle:</b></td>
-              <td>
-                <a href="<?php echo $nwStableMacApp; ?>">App Bundle Package</a>
-                |
-                <a href="<?php echo $nwStableMacApp.".sha256"; ?>">SHA256</a>
-              </td>
-            </tr>
-            <tr>
               <td><b>Image:</b></td>
               <td>
-                <a href="<?php echo $nwStableMacDmg; ?>">DMG Package</a>
+                <a href="<?php echo $nwStableMacDmg; ?>">DMG Image</a>
                 |
                 <a href="<?php echo $nwStableMacDmg.".sha256"; ?>">SHA256</a>
               </td>
