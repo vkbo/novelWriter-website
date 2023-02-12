@@ -5,18 +5,17 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "2.0.4";
-  $nwStableDate   = "2023-01-29";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0.4";
-  $nwStableMinMac = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-minimal-darwin.zip";
-  $nwStableMinLnx = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-minimal-linux.zip";
-  $nwStableMinWin = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-minimal-win.zip";
-  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter_2.0.4_all.deb";
-  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelWriter-2.0.4-py3.10-manylinux2010_x86_64.AppImage";
-  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelwriter-2.0.4-py3.10.9-win10-amd64-setup.exe";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.4/novelWriter-2.0.4-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.4.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.4.tar.gz";
+  $nwStableVers   = "2.0.5";
+  $nwStableDate   = "2023-02-12";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0.5";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter_2.0.5_all.deb";
+  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3.10-manylinux2010_x86_64.AppImage";
+  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter-2.0.5-py3.10.10-win10-amd64-setup.exe";
+  $nwStableMacApp = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5.app.zip";
+  $nwStableMacDmg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5.dmg";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.tar.gz";
 
   // Latest Testing Release
   $hasTestingvers  = false;
@@ -117,7 +116,7 @@
       <img src="images/screenshot-multi.png" alt="A screenshot of the novelWriter main application, with two dialogs superimposed.">
     </div>
   </div>
-  <div id="intro-slug">novelWriter is Free and Open Source, and runs on Linux, Windows and macOS</div>
+  <div id="intro-slug">novelWriter is Free and Open Source, and runs on Linux, Windows and MacOS</div>
 </section>
 
 <a name="features"></a>
@@ -241,15 +240,12 @@
         <p><b>Ubuntu:</b> A <a href="<?php echo $ppaFull; ?>">PPA</a>
           is available for easy installation and updating:</p>
         <pre><?php echo "sudo add-apt-repository ppa:vkbo/novelwriter\nsudo apt update && sudo apt install novelwriter"; ?></pre>
-        <p><b>Debian:</b> Download the debian package and install it with:</p>
+        <p><b>Debian/Mint:</b> Download the debian package and install it with:</p>
         <pre>sudo apt install ./path/to/downloaded/package.deb</pre>
         <p>The PPA will also work on Debian. See <a href="<?php echo $docsSetup; ?>">Getting Started</a>
           for how to add the key.</p>
-        <p><b>Minimal:</b> Download the Minimal Package file and extract it to a suitable location.
-          Make sure dependencies are installed. On Ubuntu and Debian run:</p>
-        <pre>sudo apt install python3-pyqt5 python3-lxml python3-enchant</pre>
-        <p>You can install a launcher and icons by running:</p>
-        <pre>python3 setup.py xdg-install</pre>
+        <p><b>AppImage:</b> For other Linux distributions, download the AppImage and make it
+          executable and run it. All dependencies are included in the image.</p>
         <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
@@ -287,14 +283,6 @@
                 <a href="<?php echo $nwStableAppImg; ?>">AppImage Package</a>
                 |
                 <a href="<?php echo $nwStableAppImg.".sha256"; ?>">SHA256</a>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Minimal:</b></td>
-              <td>
-                <a href="<?php echo $nwStableMinLnx; ?>">Minimal Package</a>
-                |
-                <a href="<?php echo $nwStableMinLnx.".sha256"; ?>">SHA256</a>
               </td>
             </tr>
             <tr>
@@ -370,16 +358,13 @@
     <h2>Windows</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>Windows Installer:</b> The simplest way to install novelWriter is to download the
-          Windows Installer package and run it. Note that the installer is not signed, so you will
-          get a warning that it is from an unknown publisher. This is normal for unsigned packages
-          and you must select "Run Anyway" to proceed.</p>
-        <p><b>Alternative:</b> You can also download and install the lastet version of Python from 
-          <a href="https://www.python.org/downloads/">python.org</a> and then download and extract
-          the Minimal Package. You can extract it to where you want to keep the novelWriter program
-          files, and run the <code>setup_windows.bat</code> file inside the extracted folder. This
-          will install the Qt libraries and a couple of other needed packages from PyPi, and set up
-          desktop and start menu icons.</p>
+        <p><b>Windows Installer:</b> To install novelWriter on Windows, download the Windows
+          Installer package and run it. Note that the installer is not signed, so you will get a
+          warning that it is from an unknown publisher. This is normal for unsigned packages and
+          you must select "Run Anyway" to proceed.</p>
+        <p><b>Alternative:</b> If you have a functioning Python environment on your computer, you
+          can install novelWriter from PyPi with the following command in CMD or PowerShell:</p>
+        <pre>pip install --user novelwriter</pre>
         <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
@@ -403,14 +388,6 @@
                 <a href="<?php echo $nwStableWinExe; ?>">Windows Installer</a>
                 |
                 <a href="<?php echo $nwStableWinExe.".sha256"; ?>">SHA256</a>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Minimal:</b></td>
-              <td>
-                <a href="<?php echo $nwStableMinWin; ?>">Minimal Package</a>
-                |
-                <a href="<?php echo $nwStableMinWin.".sha256"; ?>">SHA256</a>
               </td>
             </tr>
             <tr>
@@ -469,21 +446,17 @@
       </div>
     </div>
 
-    <h2>macOS</h2>
+    <h2>MacOS</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>Pre-Requisites:</b> Make sure you have Python installed. Version 3.7 or above is
-          required. These instructions assume you're using the Homebrew version of Python. For
-          further instructions, check the <a href="https://docs.brew.sh/Homebrew-and-Python">Python
-          brew docs</a>.</p>
-        <p>Install dependencies from PyPi with the following from command line:</p>
-        <pre>pip3 install --user pyobjc -r requirements.txt</pre>
-        <p>You should also install the enchant library for spell check support:</p>
-        <pre>brew install enchant</pre>
-        <p><b>Installation:</b> There are no dedicated installs for macOS yet. It will be added at
-          some point. <a href="https://github.com/vkbo/novelWriter/issues/867">Contributins from
-          Mac users</a> would be appreciated. You can run novelWriter by executing the
-          <code>novelWriter.py</code> script.</p>
+        <p><b>App Bundle:</b> Download and extract the App Bundle Zip file to a suitable location
+          and run it.</p>
+        <p><b>DMG Image:</b> Download the DMG file to a suitable location and run it. For more
+          info on how to use DMG files, see for instance this article on
+          <a href="https://www.howtogeek.com/362166/what-is-a-dmg-file-and-how-do-i-use-one/">How-To Geek</a>.</p>
+        <p><b>Alternative:</b> If you have a functioning Python environment on your computer, you
+          can install novelWriter from PyPi with the following command in CMD or PowerShell:</p>
+        <pre>pip install --user novelwriter</pre>
         <p><b>Further Details:</b> <a href="<?php echo $docsSetup; ?>">Getting Started</a></p>
       </div>
       <div class="flex-child-right">
@@ -502,11 +475,19 @@
               </td>
             </tr>
             <tr>
-              <td><b>Minimal:</b></td>
+              <td><b>Bundle:</b></td>
               <td>
-                <a href="<?php echo $nwStableMinMac; ?>">Minimal Package</a>
+                <a href="<?php echo $nwStableMacApp; ?>">App Bundle Package</a>
                 |
-                <a href="<?php echo $nwStableMinMac.".sha256"; ?>">SHA256</a>
+                <a href="<?php echo $nwStableMacApp.".sha256"; ?>">SHA256</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Image:</b></td>
+              <td>
+                <a href="<?php echo $nwStableMacDmg; ?>">DMG Package</a>
+                |
+                <a href="<?php echo $nwStableMacDmg.".sha256"; ?>">SHA256</a>
               </td>
             </tr>
             <tr>
