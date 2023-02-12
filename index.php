@@ -11,8 +11,8 @@
   $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter_2.0.5_all.deb";
   $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3.10-manylinux2010_x86_64.AppImage";
   $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter-2.0.5-py3.10.10-win10-amd64-setup.exe";
-  $nwStableMacApp = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5.app.zip";
-  $nwStableMacDmg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5.dmg";
+  $nwStableMacApp = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-macos.app.zip";
+  $nwStableMacDmg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-macos.dmg";
   $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3-none-any.whl";
   $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.zip";
   $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.tar.gz";
