@@ -448,10 +448,13 @@
     <h2>MacOS</h2>
     <div class="flex-outer">
       <div class="flex-child-left">
-        <p><b>App Image:</b> Download the DMG file and open it. Then drag the novelWriter icon to
-          the Applications folder on the right. This will install it into your Applications. The
-          first time you try to launch it, it will say that the it cannot be verified. The Help
-          instructions will tell you how to approve it.</p>
+        <p><b>App Image:</b> Download the DMG file and open it. Then drag the novelWriter icon to the Applications folder on
+          the right. This will install it into your Applications. The first time you try to launch it, it will
+          say that the bundle cannot be verified, simply press the “open” button to add an exception. 
+          If you are not presented with an "open" button in the dialog launch the application again by 
+          right clicking on the application in Finder and selecting "Open" from the context menu.</p>
+        <p>The context menu can also be accessed by option clicking if you have a one button mouse.
+          This is done by holding down the option key on your keyboard and clicking on the application in Finder.</p>
         <p><b>Alternative:</b> If you have a functioning Python environment on your computer, you
           can install novelWriter from PyPi with the following command in CMD or PowerShell:</p>
         <pre>pip3 install --user novelwriter</pre>
