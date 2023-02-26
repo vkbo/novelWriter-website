@@ -5,16 +5,16 @@
   // ========
 
   // Latest Stable Release
-  $nwStableVers   = "2.0.5";
-  $nwStableDate   = "2023-02-12";
-  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0.5";
-  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter_2.0.5_all.deb";
-  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3.10-manylinux2010_x86_64.AppImage";
-  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelwriter-2.0.5-py3.10.10-win10-amd64-setup.exe";
-  $nwStableMacDmg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-macos.dmg";
-  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.5/novelWriter-2.0.5-py3-none-any.whl";
-  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.zip";
-  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.5.tar.gz";
+  $nwStableVers   = "2.0.6";
+  $nwStableDate   = "2023-02-26";
+  $nwStableNotes  = "https://github.com/vkbo/novelWriter/releases/tag/v2.0.6";
+  $nwStableDebian = "https://github.com/vkbo/novelWriter/releases/download/v2.0.6/novelwriter_2.0.6_all.deb";
+  $nwStableAppImg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.6/novelWriter-2.0.6-py3.10-manylinux_2_28_x86_64.AppImage";
+  $nwStableWinExe = "https://github.com/vkbo/novelWriter/releases/download/v2.0.6/novelwriter-2.0.6-py3.10.10-win10-amd64-setup.exe";
+  $nwStableMacDmg = "https://github.com/vkbo/novelWriter/releases/download/v2.0.6/novelWriter-2.0.6-macos.dmg";
+  $nwStablePWheel = "https://github.com/vkbo/novelWriter/releases/download/v2.0.6/novelWriter-2.0.6-py3-none-any.whl";
+  $nwStableSrcZip = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.6.zip";
+  $nwStableSrcTar = "https://github.com/vkbo/novelWriter/archive/refs/tags/v2.0.6.tar.gz";
 
   // Latest Testing Release
   $hasTestingvers  = false;
